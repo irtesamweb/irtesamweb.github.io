@@ -20,6 +20,8 @@ related_publications:
     </li>
 </ul>
 
+<a href='{{ page.github }}'> Github Repository </a>
+<br>
 <a href='/assets/pdf/Thesis_biophysical.pdf'>Download Full Text</a>
 
 <h3>Abstract</h3>
