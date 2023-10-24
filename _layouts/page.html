@@ -7,6 +7,7 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-description">{{ page.description }}</p>
+    <p><i>{{ page.date }}</i></p>
   </header>
 
   <article>
@@ -15,6 +16,11 @@ layout: default
 
   {%- if page.related_publications != null and page.related_publications.size > 0 -%}
   {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
+  
+  <!-- {%- if project.pdfFile -%}
+                {assign filepath = project.pdfFile | prepend: '/assets/pdf/'}
+                <a href="{{ filepath }}">Download Full Text</a>
+  {%- endif -%} -->
   <h2>References</h2>
   <div class="publications">
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}

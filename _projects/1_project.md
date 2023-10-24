@@ -20,6 +20,8 @@ related_publications:
     </li>
 </ul>
 
+<a href='/assets/pdf/Thesis_biophysical.pdf'>Download Full Text</a>
+
 <h3>Abstract</h3>
 Antibodies have become one of the most predominant class of drugs in modern days.
 Around the world, at least 570 therapeutic monoclonal antibodies have been studied in clinical trials by commercial companies, and 79 therapeutic monoclonal antibodies have been

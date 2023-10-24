@@ -2,80 +2,25 @@
 layout: page
 title: project 2
 description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+img: assets/img/publication_preview/covid_bd.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: Research Projects
+# giscus_comments: true
+github: https://github.com/rizvi23061998/bd_prediction.git
+pdfFile: covid_bd.pdf 
+
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+<h3>Highlights</h3>
+<ul>
+    <li>We considered the SIR model for modeling the pandemic situation in Bangladesh</li>
+    <li>We varied different parameters for simulating different situations such as stricter lockdowns, better treatment facilities, etc.
+    </li>
+    <li> Markov Chain Monte Carlo(MCMC) method was used to fit the model with daily incidence data.
+    </li>
+</ul>
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<a href='/assets/pdf/covid_bd.pdf'>Download Full Text</a>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<h3>Abstract</h3>
+The COVID-19 pandemic has spread globally. Only three cases in Bangladesh were reported on March 8, 2020. Here, we aim to predict the epidemic progression for 1 year under different scenarios in Bangladesh. We extracted the number of daily confirmed cases from March 8 to July 20, 2020. We considered the suspected-infected-removed (SIR) model and performed a maximum likelihood-based grid search to determine the removal rate ($\gamma$). The transmission was modeled as a stochastic random walk process, and sequential Monte Carlo simulation was run 100 times with bootstrap fits to infer the transmission rate (β) and R t . According to the simulation, the (real) peak daily incidence of 3,600 would be followed by a steady decline, reaching below 1,000 in late January 2021. Thus, the model predicted that there would still be more than 300 cases/day even after a year. However, with proper interventions, a much steeper decline would be achieved following the peak. If we apply a combined (0.8β, 1.2ɣ) intervention, there would be less than 100 cases by mid-October, only around five odd cases at the beginning of the year 2021, and zero cases in early March 2021. The predicted total number of deaths (in status quo) after 1 year would be 8,533 which would reduce to 3,577 if combined (0.8β, 1.2ɣ) intervention is applied. We have also predicted the ideal number of tests that Bangladesh should perform and based on that redid the whole simulation. The outcome, though worse, would be manageable with interventions according to the simulation.
