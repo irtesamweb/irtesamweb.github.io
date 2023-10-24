@@ -27,6 +27,7 @@ related_publications:
 <a href='/assets/pdf/Thesis_biophysical.pdf'>Download Full Text</a>
 
 <h3>Abstract</h3>
+<p>
 Antibodies have become one of the most predominant class of drugs in modern days.
 Around the world, at least 570 therapeutic monoclonal antibodies have been studied in clinical trials by commercial companies, and 79 therapeutic monoclonal antibodies have been
 approved by the United States Food and Drug Administration (US FDA). But a lot of the
@@ -39,4 +40,4 @@ order information as features and used several machine learning techniques to re
 feature space and predict the target biophysical assay. Our model can predict this biophysical assays with surprisingly high degree of accuracy. The low computational expense and a
 high accuracy makes our method very feasible for reducing cost of monoclonal antibodies
 development.
-
+</p>
