@@ -9,7 +9,7 @@ category: Research Projects
 github: https://github.com/rizvi23061998/bd_prediction.git
 pdfFile: covid_bd.pdf 
 project_date: 2019-2020
-related_publications: Khan2021
+related_publications: Khan2021bd
 
 ---
 <h3>Highlights</h3>
