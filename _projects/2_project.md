@@ -8,6 +8,8 @@ category: Research Projects
 # giscus_comments: true
 github: https://github.com/rizvi23061998/bd_prediction.git
 pdfFile: covid_bd.pdf 
+date: 2020-2021
+related_publications: Khan2021
 
 ---
 <h3>Highlights</h3>

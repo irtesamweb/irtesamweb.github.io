@@ -1,81 +1,28 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: COVID-19 in China - Risk Factors and R0 Revisited
+description: SIR model based modeling with unsupervised clustering of the pandemic was done to predict the pandemic situation in China.
+img: assets/img/publication_preview/covid_china.jpg
 importance: 3
-category: work
+category: Research Projects
+# giscus_comments: true
+github: https://github.com/rizvi23061998/estimate_chinese_r0.git
+pdfFile: /assets/pdf/covid_china.pdf
+date: 2020-2021
+related_publications: Khan2021china
 ---
+<h3>Highlights</h3>
+<ul>
+    <li>We employed the K-means clustering algorithm to divide all the prefectures in China into three different regions</li>
+    <li>For the COVID-19 pandemic, reproduction number \( R_0 \) was calculated using the SIR model and Sequential Monte Carlo method.
+    </li>
+    <li> Finally, \( R_0 \) of different regions were compared with respect to the variation of risk factors and temperature profile.
+    </li>
+</ul>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<a href='{{ page.github }}'> Github Repository </a>
+<br>
+<a href='{{ page.pdfFile }}'>Download Full Text</a>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<h3>Abstract</h3>
+The COVID-19 epidemic spread rapidly through China and subsequently proliferated globally leading to a pandemic situation around the globe. Human-to-human transmission, as well as asymptomatic transmission of the infection, have been confirmed. As of April 03, 2020, public health crisis in China due to COVID-19 was potentially under control. We compiled a daily dataset of case counts, mortality, recovery, temperature, population density, and demographic information for each prefecture during the period of January 11 to April 07, 2020. Understanding the characteristics of spatial clustering of the COVID-19 epidemic and \( R_0 \) is critical in effectively preventing and controlling the ongoing global pandemic. Considering this, the prefectures were grouped based on several relevant features using unsupervised machine learning techniques. Subsequently, we performed a computational analysis utilizing the reported cases in China to estimate the revised R0 among different regions. Finally, our overall research indicates that the impact of temperature and demographic factors on virus transmission may be characterized using a stochastic transmission model. Such predictions will help in prevention planning in an ongoing global pandemic, prioritizing segments of a given community/region for action and providing a visual aid in designing prevention strategies for a specific geographic region. Furthermore, revised estimation and our methodology will aid in improving the human health consequences of COVID-19 elsewhere.
