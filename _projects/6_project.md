@@ -1,80 +1,29 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: A Machine Learning-based Approach for Groundwater Mapping
+description: Both classification and regression based approach were used to predict ground water level.
+img: assets/img/publication_preview/gwl.png
+importance: 6
+category: Research Projects
+# giscus_comments: true
+github:  https://github.com/rizvi23061998/GWL_BD.git
+pdfFile: /assets/pdf/gwl.pdf
+project_date: 2022
+related_publications: Zzaman2021
 ---
+<h3>Highlights</h3>
+<ul>
+    <li>We proposed a machine learning model to predict Ground Water Level(GWL) from relevant hydrogeological factors.</li>
+    <li>We employed a two-stage approach, where we first employed a classification model to identify the suitable abstraction technology for the point of interest and subsequently predict the actual GWL using the appropriate Random Forest regressor
+    </li>
+    <li>We achieved a remarkable AUC of 96% for classification, moreover, the regression model also performed reasonably well.</li>
+</ul>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<a href='{{ page.github }}'> Github Repository </a>
+<br>
+<a href='{{ page.pdfFile }}'>Download Full Text</a>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<h3>Abstract</h3>
+<p>
+In Bangladesh, groundwater is the main source of both drinking water and irrigation. Suction lift pumps and force mode of operation are the predominant technologies for groundwater abstraction in Bangladesh. For a sustainable usage policy, it is thus important to identify which technology would be more appropriate for which area in Bangladesh. With that aim in mind, this paper proposes a methodology that leverages the power of machine learning that can potentially learn intricate relationships between the (annual maximum) groundwater level (GWL) and the relevant hydrogeological factors (HGFs). A number of machine learning algorithms—both classification and regression models—was trained. Our classification models were trained as a binary classifier to predict the abstraction technology of a particular point. Notably, our best classification model was based on the Random Forest algorithm, which achieved an accuracy of 91% and an excellent value of 96% for the area under receiver operating characteristics curve, indicating its strong discriminant capability. We also identified (elevation derived from) digital elevation model, specific yield and lithology as the three most important HGFs for GWL in Bangladesh. On the other hand, to predict the actual (annual maximum) GWL, we employed a two-stage approach, where we first employed the above-mentioned classification model to identify the suitable abstraction technology for the point of interest and subsequently predict the actual GWL using the appropriate Random Forest regressor. This also had a reasonable accuracy (minimum absolute error was less than 1 for suction mode and less than 5 for the force mode). Finally, using our prediction models, we prepared groundwater (technology) maps for the whole Bangladesh.
+</p>

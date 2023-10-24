@@ -4,7 +4,7 @@ title: The Disproportionate Impact of COVID-19 among Undocumented Immigrants and
 Minorities in the US 
 description: Machine learning techniques are used to understand the impact of socio-demographic factors on COVID-19
 img: assets/img/publication_preview/covid_us.png
-importance: 4
+importance: 5
 category: Research Projects
 # giscus_comments: true
 github:  https://github.com/rizvi23061998/US_DATA_ANALYSIS.git
