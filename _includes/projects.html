@@ -27,6 +27,10 @@
                 <span id="{{ project.github_stars }}-stars"></span>
               </span>
               {%- endif %}
+              {%- if project.pdfFile -%}
+                {assign filepath = project.pdfFile | prepend: '/assets/pdf/'}
+                <a href="{{ filepath }}">Download Full Text</a>
+              {%- endif -%}
             </div>
             {%- endif %}
           </div>

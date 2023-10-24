@@ -5,78 +5,32 @@ description: Classical machine learning was applied to predict antibody properti
 img: assets/img/project/antibody.webp
 importance: 1
 category: Research Projects
+github: https://github.com/rizvi23061998/cse400Thesis.git
+pdfFile: Thesis_biophysical.pdf 
 related_publications: 
 ---
-This was my undergraduate thesis.
+<h3>Highlights</h3>
+<ul>
+    <li>This was my undergraduate thesis.</li>
+    <li>We employed several classical techniques such as n-gram, n-gapped dipeptides, and PSF, to extract features from antibody variable region sequences.
+    </li>
+    <li>Feature selection techniques, such as SVM-RFE, were deployed and the selected features were used to train several machine learning models.
+    </li>
+    <li>Our models could predict three biophysical properties from only sequences with remarkably high accuracy.
+    </li>
+</ul>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<h3>Abstract</h3>
+Antibodies have become one of the most predominant class of drugs in modern days.
+Around the world, at least 570 therapeutic monoclonal antibodies have been studied in clinical trials by commercial companies, and 79 therapeutic monoclonal antibodies have been
+approved by the United States Food and Drug Administration (US FDA). But a lot of the
+candidate drugs fail at different stages of development. Some biophysical assays have been
+proposed for screening candidates at the early stage of development. But this wet lab experimnets are costly and time consuming. Instead several computational/theoretical tools have
+been developed in the recent years. In this study, we have proposed a machine learning
+based computational method to predict three important biophysical assays(AC-SINS,HIC
+retention time and PSR) from antibody sequences only. We have used only the sequence
+order information as features and used several machine learning techniques to reduce the
+feature space and predict the target biophysical assay. Our model can predict this biophysical assays with surprisingly high degree of accuracy. The low computational expense and a
+high accuracy makes our method very feasible for reducing cost of monoclonal antibodies
+development.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
