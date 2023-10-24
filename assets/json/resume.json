@@ -1,62 +1,72 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Irtesam Mahmud Khan",
+    "label": "Lecturer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "irtesam.m.khan@gmail.com",
+    "phone": "",
+    "url": "https://irtesamweb.github.io/",
+    "summary": "A researcher interested in applications of statistics/machine learning in biological sciences.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "3169, Abdul Hakim Khan Lane",
+      "postalCode": "",
+      "city": "Chattogram",
+      "countryCode": "bn",
+      "region": "West Nasirabad"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Facebook",
+        "username": "Irtesam Mahmud Khan",
+        "url": "https://www.facebook.com/profiles/imkhan.rizvi"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
-      ]
+      "name": "United International University",
+      "position": "Lecturer of Computer Science and Engineering",
+      "url": "https://cse.uiu.ac.bd",
+      "startDate": "2021",
+      "endDate": "Present",
+      "summary": "Taught a diverse array of courses during my tenure. I also supervised students on dozens of projects."
+      
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "institution": "Bangladesh University of Engineering and Technology(BUET)",
+      "url": "https://www.buet.ac.bd/",
+      "area": "Computer Science and Engineering",
+      "studyType": "M.SC.Engg",
+      "startDate": "2021",
+      "endDate": "2024(Expected)",
+      "score": "3.67(Expected to be 3.83 after the completion of thesis)"
+    },
+    {
+      "institution": "Bangladesh University of Engineering and Technology(BUET)",
+      "url": "https://www.buet.ac.bd/",
+      "area": "Computer Science and Engineering",
+      "studyType": "B.SC",
+      "startDate": "2016",
+      "endDate": "2021",
+      "score": "3.87(Among top 8%) with a Major CGPA of 3.99"
     }
+
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Champion",
+      "date": "2020",
+      "awarder": "Cisco Networking Academy Skills Competition"
+    },
+    {
+      "title": "Deans List Award",
+      "date": "2017, 2018",
+      "awarder": "Bangladesh University of Engineering and Technology(BUET)"
     }
+
   ],
   "certificates": [],
   "publications": [],
@@ -71,7 +81,7 @@
       "fluency": "Fluent"
     }
   ],
-  "interests": [],
+  "interests": ["Computational Biology", "Statistical Modeling", "Machine Learning", "Explainable AI"],
   "references": [],
   "projects": []
 }
