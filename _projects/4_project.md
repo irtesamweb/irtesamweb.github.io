@@ -8,7 +8,7 @@ category: Research Projects
 # giscus_comments: true
 github:  https://github.com/s-shamil/agent-based-modeling-covid-19
 pdfFile: /assets/pdf/abm.pdf
-date: 2020-2021
+project_date: 2020-2021
 related_publications: Shamil2021
 ---
 <h3>Highlights</h3>
