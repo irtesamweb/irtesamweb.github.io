@@ -30,10 +30,13 @@ $grey-900:            #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+$blue-beauty: #493eb0;
+$green-beauty: #4fc15a;
+
 // Theme colors
 
-$code-bg-color-light:     #493eb0; //rgba($purple-color, 0.05);
-$code-bg-color-dark:      #4fc15a !default;
+$code-bg-color-light:     rgba($blue-beauty, 0.05); //rgba($purple-color, 0.05);
+$code-bg-color-dark:      rgba($green-beauty, 0.05) !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";
