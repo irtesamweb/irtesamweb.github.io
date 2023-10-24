@@ -7,8 +7,9 @@ importance: 1
 category: Research Projects
 github: https://github.com/rizvi23061998/cse400Thesis.git
 pdfFile: Thesis_biophysical.pdf 
+project_date: 2019-2020
 related_publications: 
-date: 2019-2020
+
 ---
 <h3>Highlights</h3>
 <ul>

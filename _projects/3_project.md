@@ -8,7 +8,7 @@ category: Research Projects
 # giscus_comments: true
 github: https://github.com/rizvi23061998/estimate_chinese_r0.git
 pdfFile: /assets/pdf/covid_china.pdf
-date: 2020-2021
+project_date: 2020-2021
 related_publications: Khan2021china
 ---
 <h3>Highlights</h3>
