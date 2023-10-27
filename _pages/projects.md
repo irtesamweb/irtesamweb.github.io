@@ -48,13 +48,13 @@ horizontal: false
     </div>
   </div>
   {%- else -%}
-  <div class="grid">
+  <!-- <div class="grid"> -->
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}
     </div>
-  </div>
+  <!-- </div> -->
   {%- endif -%}
 {%- endif -%}
 </div>
