@@ -16,3 +16,5 @@ project_date: 2016
     <li>An OpenGL based library called IGraphics was used to plot the equations.</li>
     <li>
 </ul>
+
+<p> Codebase: <a href='{{ page.github }}'>{{ page.title }}</a> </p>

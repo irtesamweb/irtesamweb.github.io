@@ -2,7 +2,7 @@
 layout: page
 title: Smart Home Security System with ATMega32 and sensors
 description: An embedded system with microcontrollers, multiple sensors, and a servo motor.
-# img: assets/img/project/javafx.png
+img: assets/img/project/atmega.png
 importance: 14
 category: Academic Projects
 # giscus_comments: true

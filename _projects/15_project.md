@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Automatic English Grammar Checker with Deep Learning':' Website,
-Chrome Extension, Android App
+title: Automatic English Grammar Checker with Deep Learning - Website, Chrome Extension, Android App
 description: A multi-platform English grammar checker/corrector.
-# img: assets/img/project/javafx.png
+img: assets/img/project/gc.png
 importance: 15
 category: Academic Projects
 # giscus_comments: true
-github:  
+github: https://drive.google.com/drive/folders/1AxxJVwG2xJ3iQB9mOAcxM2Qx5k9n7MxD?usp=drive_link 
 # pdfFile: /assets/pdf/aids.pdf
 project_date: 2019-20
 ---
@@ -21,4 +20,4 @@ project_date: 2019-20
     
 </ul>
  
- <p> Github Link: <a href=''>Automatic Grammar Checker</a> </p>
+ <p> Project Repository: <a href='{{ page.github }}'>Automatic Grammar Checker</a> </p>

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A Desktop Application for an E-commerce Site with Java JavaFX
+title: A Desktop Application for an E-commerce Site with Java and JavaFX
 description: A cross platform e-commerce app with Java and JavaFX.
 img: assets/img/project/javafx.png
 importance: 12
@@ -17,3 +17,4 @@ project_date: 2016
     <li>Threading and socket Networking was used as part of the project.</li>
 </ul>
  
+<p> Codebase: <a href='{{ page.github }}'>{{ page.title }}</a> </p>
