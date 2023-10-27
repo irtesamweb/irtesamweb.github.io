@@ -6,10 +6,10 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description">{{ page.description }}</p>
-    <p><i>{{ page.project_date }}</i></p>
+    <p class="post-description">{{ page.description }}<br>
+    <span style="font-size: 16px; text-align: right; padding-top: 0px; margin-top: 0px;"><b>Project Duration:&nbsp;</b><i>{{ page.project_date }}</i></span></p>
   </header>
-
+  <hr>
   <article>
     {{ content }}
   </article>
