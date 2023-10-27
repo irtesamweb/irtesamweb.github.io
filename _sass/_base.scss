@@ -606,10 +606,13 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-sizer,
+  // .grid-sizer{
+  //   width:25%;
+  // }
   .grid-item {
-    width: 250px;
-    // height: 500px;
+    float:left;
+    width: 25%;
+    height: 60%;
     margin-bottom: 10px;
   }
 
