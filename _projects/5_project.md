@@ -1,7 +1,6 @@
 ---
 layout: page
-title: The Disproportionate Impact of COVID-19 among Undocumented Immigrants and Racial
-Minorities in the US 
+title: The Disproportionate Impact of COVID-19 among Undocumented Immigrants and Racial Minorities in the US 
 description: Machine learning techniques are used to understand the impact of socio-demographic factors on COVID-19
 img: assets/img/publication_preview/covid_us.png
 importance: 5
