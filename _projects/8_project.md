@@ -2,7 +2,7 @@
 layout: page
 title: Attention-based Host Intrusion Detection System
 description: Hierarchical attention model was used to detect intrusion from system call traces.
-img: assets/img/publication_preview/aids.png
+img: assets/img/project/aids.png
 importance: 8
 category: Research Projects
 # giscus_comments: true

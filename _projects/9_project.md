@@ -2,7 +2,7 @@
 layout: page
 title: Imputing missing ground water level data with deep learning
 description: We used a hierarchical hybrid model to impute missing ground water level time series data.
-img: assets/img/publication_preview/gwl_fts.png
+img: assets/img/project/gwl_fts.png
 importance: 9
 category: Research Projects
 # giscus_comments: true

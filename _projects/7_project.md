@@ -2,7 +2,7 @@
 layout: page
 title: Predicting protein-peptide binding sites - an LLM based approach
 description: A pretrained language model was used to extract features from protein sequences. This is a structure agnostic approach to predict peptide binding sites.
-img: assets/img/publication_preview/pepbind.png
+img: assets/img/project/pepbind.png
 importance: 7
 category: Research Projects
 # giscus_comments: true

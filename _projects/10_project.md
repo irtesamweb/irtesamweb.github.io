@@ -2,7 +2,7 @@
 layout: page
 title: Association of DNA Methylation with Smoking - A Deep Learning Based Approach
 description: This work is currently at a very preliminary stage.
-img: assets/img/publication_preview/ewas.png
+img: assets/img/project/ewas.png
 importance: 10
 category: Research Projects
 # giscus_comments: true
