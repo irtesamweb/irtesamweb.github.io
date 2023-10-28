@@ -20,7 +20,7 @@ more info:
 I recieved my bachelor degree with [excellent results](/cv/) from Bangladesh University of Engineering and Technology, which is the leading university in my country. I am also currently pursuing masters from the same institution. My current research focus includes computational biology, machine learning and statistical modeling. I have alredy [published 5 papers](/publications/) and worked in a plethora of [projects](/_projects/). I have hands-on experience of multiple languages, tools and frameworks. I find teaching a fascinating job, hence I have been serving as a Lecturer at Department of Computer Science and Engineering since my graduation. Over the last couple of years, I have [taught several courses](/teaching/) and mentored students on dozens of projects.
 
 
-<span id='hlt'><b>I am actively looking for a PhD opportunity in the field of computational biology.</b></span> Please contact me via [email](mailto:irtesam.m.khan@gmail.com) for any queries. You will find my detailed cv [here](/cv/)
+<span id='hlt'><b>I am actively looking for a PhD opportunity in the field of computational biology.</b></span> Please contact me via [email](mailto:irtesam.m.khan@gmail.com) for any queries. You will find my detailed cv [here](/assets/pdf/irtesam_cv.pdf)
 
 
 
