@@ -416,3 +416,11 @@ jsonresume:
   - languages
   - interests
   - references
+
+
+# jekyll_get_json:
+#   - data: courses
+#     json: assets/json/courses.json # it can also be an url
+# jsoncourses:
+#   - courselist
+  

@@ -1,12 +1,19 @@
 ---
-layout: page
+layout: default
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: I have been serving as a lecturer at the Department of CSE, United International University since March 2021. Over the last couple years, I have taught an array of courses. This page contains a list of selected courses.
 nav: true
 nav_order: 5
 ---
+<h1 class="post-title">{{ page.title }}</h1>
+<p class="post-description">{{ page.description }}<br>
+<hr>
+<ul>
+{% for course in site.data.courses.courselist %}
+    <li>
+        <b>{{ course.title }}</b> : {{ course.date }} 
+    </li>
+{% endfor %}
+</ul>
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
