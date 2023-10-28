@@ -2,7 +2,7 @@
 layout: default
 permalink: /publications/
 title: Publications
-description: All of my publications are showcased here.
+description: All of my publications are showcased here. My current google scholar citation count is 159.
 nav: true
 nav_order: 1
 ---
